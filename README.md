@@ -109,7 +109,7 @@
         
         // Ambil ID Cabang dari URL (misal: ?cabang=Malang) atau default
         const urlParams = new URLSearchParams(window.location.search);
-        const ID_CABANG = urlParams.get('cabang') || 'pusat_jakarta';
+        const ID_CABANG = urlParams.get('cabang') || 'MLGMON';
         document.getElementById('branch-title').textContent = "Gacoan Thawing - " + ID_CABANG.toUpperCase();
 
         // Initialize Firebase
